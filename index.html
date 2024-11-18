@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI English Helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI English Helper</h1>
+        <p>Améliorez votre anglais avec l'IA en toute simplicité !</p>
+    </header>
+
+    <section id="chatbot">
+        <h2>Pratiquez avec notre chatbot</h2>
+        <div class="chatbox" id="chatbox"></div>
+        <textarea id="userInput" placeholder="Écrivez ici..."></textarea>
+        <button onclick="sendMessage()">Envoyer</button>
+    </section>
+
+    <section id="traduction">
+        <h2>Traduction Instantanée</h2>
+        <label for="inputText">Texte à traduire :</label>
+        <textarea id="inputText" placeholder="Écrivez du texte ici..."></textarea>
+        <button onclick="translateText()">Traduire</button>
+        <p id="translatedText"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AI English Helper - Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
